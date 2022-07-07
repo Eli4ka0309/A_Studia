@@ -1,0 +1,22 @@
+.navigation-list {
+  ul {
+    display: flex;
+    font-weight: 900;
+  }
+
+  li {
+    margin-right: 60px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  a{
+    color: inherit;
+    &:hover{
+      color:#2436e0;
+    }
+  }
+
+
+}

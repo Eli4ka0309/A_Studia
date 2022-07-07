@@ -1,0 +1,25 @@
+.header_btm {
+  padding: 20px 40px;
+  margin-top: 35px;
+  background-color: #2436E0FF;
+  border-radius: 60px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 20px;
+
+  position: absolute;
+  z-index: 10;
+
+}
+
+.header_btm:hover {
+  background-color: #1F2FCBFF;
+}
+
+.dot_ornament_header {
+  display: block;
+  position: absolute;
+  left: -50px;
+  bottom: -175px;
+  z-index: 1;
+}

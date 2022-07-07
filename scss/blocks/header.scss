@@ -1,0 +1,29 @@
+.header {
+  overflow: hidden;
+  padding-bottom: 140px;
+}
+
+.header_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_text {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+
+}
+
+p {
+  line-height: 2;
+}
+
+.header_title {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  color: black;
+}

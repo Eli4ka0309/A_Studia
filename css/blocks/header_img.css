@@ -1,0 +1,18 @@
+.header_img {
+  position: relative;
+}
+.header_img .pic {
+  border-radius: 0 0 0 116px;
+  margin-right: -115px;
+}
+.header_img .ellipse {
+  position: absolute;
+  left: -60px;
+  z-index: -1;
+}
+.header_img .rectangle {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  z-index: -1;
+}
