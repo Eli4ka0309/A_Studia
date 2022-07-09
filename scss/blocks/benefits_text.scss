@@ -1,0 +1,19 @@
+.benefits_text {
+  position: relative;
+  width: 400px;
+
+  .rectangle {
+    position: absolute;
+    left: -50px;
+    top: -56px;
+    transform: rotate(180deg);
+    z-index: -1;
+  }
+
+  .dot_ornament {
+    position: absolute;
+    top: 280px;
+    z-index: -1;
+
+  }
+}
