@@ -1,0 +1,11 @@
+.awards_text{
+  width: 462px;
+  position: relative;
+  img{
+    position: absolute;
+    top: -10px;
+    left: -31px;
+    z-index: -1;
+    transform: rotate(1deg);
+  }
+}

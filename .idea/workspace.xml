@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf626ce-f1e6-4366-8672-8a825667b193" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/blocks/benefits.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/benefits_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/benefits_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/awards_row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/awards_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blocks/awards_video.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/clients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/benefits.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/section_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/section_title.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
@@ -60,7 +59,7 @@
       <workItem from="1657228246902" duration="6000" />
       <workItem from="1657228310481" duration="1011000" />
       <workItem from="1657229347778" duration="3570000" />
-      <workItem from="1657296113677" duration="9360000" />
+      <workItem from="1657296113677" duration="12510000" />
     </task>
     <servers />
   </component>
