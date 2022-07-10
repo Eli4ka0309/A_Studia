@@ -1,0 +1,45 @@
+
+.catalog_active_row {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.active_img {
+  img {
+    border-radius: 0 161px 0 161px;
+
+  }
+}
+
+.active_text {
+  width: 412px;
+  margin-left: 64px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+  }
+
+  p {
+    font-weight: 1.2;
+    margin-top: 20px;
+  }
+
+}
+
+
+.dot_mini_gray_active {
+  position: absolute;
+  top: -35px;
+  left: 246px;
+  z-index: -1;
+}
+
+.pink_ellipse_active {
+  position: absolute;
+  bottom: 0;
+  z-index: -1
+
+}
