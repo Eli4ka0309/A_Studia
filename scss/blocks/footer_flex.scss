@@ -1,0 +1,25 @@
+.footer_flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 794px;
+  margin-left: 50px;
+}
+
+.footer_block {
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 15px;
+
+  }
+
+  a {
+    color: black;
+    line-height: 2.4;
+  }
+}

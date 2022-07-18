@@ -1,0 +1,40 @@
+.subscribe_row {
+  width: 100%;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 75px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.subscribe_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+}
+
+.subscribe_img_bg {
+  position: absolute;
+  bottom: -39px;
+  left: -39px;
+  z-index: -2;
+  transform: rotate(90deg);
+}
+
+
+.subscribe_row::after {
+  content: '';
+  width: 175px;
+  height: 154px;
+  background: url("/img/dot_sub.svg") no-repeat;
+  position: absolute;
+  right: -39px;
+  top: -39px;
+  z-index: -2;
+}

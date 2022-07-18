@@ -3,9 +3,11 @@ padding-bottom: 130px;
 }
 
 .clients_row {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-wrap: wrap;
 
   img {
     margin-left: 30px;

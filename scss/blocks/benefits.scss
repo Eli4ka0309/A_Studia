@@ -1,10 +1,14 @@
-.benefits{
+.benefits {
   padding-bottom: 161px;
+  overflow: hidden;
 }
+
 .benefits_row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   position: relative;
+  width: 100%;
+
 }
