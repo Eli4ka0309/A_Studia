@@ -13,11 +13,9 @@ padding-bottom: 130px;
     margin-left: 30px;
     align-items: center;
 
-    & :first-child {
-      margin-left: 0;
-    }
-
-
+  }
+  img:first-child {
+    margin-left: 0;
   }
 
 }

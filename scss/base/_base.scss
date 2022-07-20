@@ -10,13 +10,8 @@ html, body {
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-
   width: 100%;
-  max-width: 1294px;
+  max-width: 1360px;
+  padding: 0 30px;
   margin: 0 auto;
-  padding: 0 15px;
-
-
 }

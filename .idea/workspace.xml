@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf626ce-f1e6-4366-8672-8a825667b193" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/blocks/footer_row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/footer_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/form_btm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/reviews_row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/subscribe.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/subscribe_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/subscribe_row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/blocks/subscribe_text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/awards_row.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/awards_row.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/awards_text.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/awards_text.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/base/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/awards_row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/awards_row.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/awards_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/awards_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/benefits.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/benefits_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/benefits_card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/catalog_active_row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/catalog_active_row.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/clients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/footer_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/footer_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/footer_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/footer_text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/section_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/section_title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/subscribe_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/subscribe_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/subscribe_row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/subscribe_row.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +72,7 @@
       <workItem from="1657228310481" duration="1011000" />
       <workItem from="1657229347778" duration="3570000" />
       <workItem from="1657296113677" duration="12781000" />
-      <workItem from="1657440568607" duration="32906000" />
+      <workItem from="1657440568607" duration="35524000" />
     </task>
     <servers />
   </component>

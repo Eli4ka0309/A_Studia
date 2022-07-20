@@ -40,15 +40,10 @@ html, body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 100%;
-  max-width: 1294px;
+  max-width: 1360px;
+  padding: 0 30px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .nav_row {
@@ -109,6 +104,7 @@ html, body {
   position: relative;
   width: 100%;
   max-width: 500px;
+  padding-right: 20px;
 }
 
 p {
@@ -163,7 +159,7 @@ p {
   position: absolute;
   left: -50px;
   bottom: -175px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .clients {
@@ -190,7 +186,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
-.clients_row img :first-child {
+.clients_row img:first-child {
   margin-left: 0;
 }
 
@@ -393,6 +389,7 @@ p {
 .awards_text {
   width: 565px;
   position: relative;
+  padding-left: 50px;
 }
 .awards_text img {
   position: absolute;
@@ -452,11 +449,12 @@ p {
 }
 
 .active_img img {
-  border-radius: 0 161px 0 161px;
+  border-radius: 0 45% 0 45%;
+  width: 100%;
 }
 
 .active_text {
-  width: 412px;
+  width: 312px;
   margin-left: 45px;
 }
 .active_text h3 {
@@ -560,7 +558,7 @@ p {
           align-items: center;
   border-radius: 75px;
   position: relative;
-  z-index: 1;
+  background: #F4F9FF;
 }
 
 .subscribe_bg {
@@ -599,6 +597,8 @@ p {
 
 .subscribe_form {
   width: 45%;
+  position: unset;
+  z-index: 1;
 }
 
 .subscribe_form:after {
@@ -725,7 +725,8 @@ p {
 }
 
 .footer_text {
-  width: 270px;
+  width: 100%;
+  max-width: 270px;
 }
 .footer_text p {
   line-height: 1.6;
@@ -749,7 +750,7 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 794px;
-  margin-left: 50px;
+  padding-left: 70px;
 }
 
 .footer_block {
