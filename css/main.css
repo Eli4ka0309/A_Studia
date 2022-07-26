@@ -46,6 +46,10 @@ html, body {
   margin: 0 auto;
 }
 
+p {
+  line-height: 1.8;
+}
+
 .nav_row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,9 +110,8 @@ html, body {
   max-width: 500px;
   padding-right: 20px;
 }
-
-p {
-  line-height: 2;
+.header_text p {
+  font-size: 18px;
 }
 
 .header_title {
@@ -121,10 +124,11 @@ p {
 
 .header_img {
   position: relative;
+  margin-right: -115px;
 }
 .header_img .pic {
   border-radius: 0 0 0 116px;
-  margin-right: -115px;
+  width: 100%;
 }
 .header_img .ellipse {
   position: absolute;
@@ -183,6 +187,8 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  max-width: 150px;
 }
 
 .clients_icon {
@@ -198,7 +204,8 @@ p {
 }
 
 .clients_text {
-  width: 420px;
+  width: 100%;
+  max-width: 420px;
 }
 
 .section_title {
@@ -278,12 +285,13 @@ p {
   top: 132px;
   right: -119px;
   z-index: -1;
+  width: 100%;
 }
 
 .card_item {
   width: 100%;
   max-width: 308px;
-  height: 379px;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,13 +302,14 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   border-radius: 40px;
   -webkit-box-shadow: 0 10px 50px 0 #00000012;
           box-shadow: 0 10px 50px 0 #00000012;
   background: white;
+  padding: 30px 25px;
 }
 
 .card_title {
@@ -310,13 +319,11 @@ p {
   text-align: center;
   margin-top: 30px;
   font-weight: 900;
-  padding: 0 40px;
 }
 
 .card_subtitle {
   text-align: center;
   margin-top: 20px;
-  padding: 0 20px;
 }
 
 .img_block {
@@ -365,7 +372,7 @@ p {
 }
 
 .awards {
-  padding-bottom: 90px;
+  padding-bottom: 125px;
 }
 
 .awards_row {
@@ -404,11 +411,24 @@ p {
   z-index: -1;
 }
 
+.awards_video {
+  position: relative;
+}
+
 .awards_video_content {
   -webkit-box-shadow: 1px 0 50px 8px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 0 50px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 100%;
+  border-radius: 30px;
+}
+
+.video_play {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  z-index: 2;
+  width: 78px;
+  height: 78px;
+  cursor: pointer;
 }
 
 .reviews {
@@ -804,24 +824,122 @@ p {
 }
 
 @media (max-width: 1200px) {
-  .clients {
-    padding-bottom: 90px;
+  .header_text {
+    max-width: 418px;
   }
 
   .clients_row {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
 
   .clients_icon {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .clients_icon img {
+    max-width: 135px;
+  }
+
+  .clients_text {
+    max-width: 360px;
+  }
+}
+@media (max-width: 1050px) {
+  .navigation-list li {
+    margin-right: 35px;
+  }
+
+  .header_title {
+    margin-bottom: 15px;
+  }
+
+  .header_btm {
+    margin-bottom: 15px;
+    margin-top: 26px;
+    font-size: 17px;
+  }
+
+  .section_title {
+    font-size: 31px;
+  }
+
+  .clients_text {
+    max-width: 300px;
+  }
+
+  .clients_row img {
+    max-width: 120px;
+  }
+
+  .benefits_card {
+    grid-gap: 20px;
+    margin: 0;
+  }
+
+  .card_item {
+    height: 330px;
+  }
+
+  .img_block {
+    padding: 12px;
+  }
+  .img_block img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card_title {
+    margin-top: 26px;
+    font-size: 19px;
+  }
+
+  .awards_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .awards_text {
+    text-align: end;
+    max-width: inherit;
+    margin-bottom: 35px;
+    padding-left: 0;
+  }
+
+  .reviews_catalog {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .catalog_active_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    max-width: 314px;
+  }
+
+  .active_text {
+    margin-top: 20px;
+    margin-left: 0;
+    border-radius: 0 30% 0 30%;
+  }
+  .active_text h3 {
+    margin-left: 0;
+  }
+
+  .pink_ellipse_active {
+    position: absolute;
+    bottom: 161px;
+    right: -41px;
   }
 }

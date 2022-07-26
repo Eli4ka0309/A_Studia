@@ -1,16 +1,117 @@
 @media (max-width: 1200px) {
+  //header//
+  .header_text {
+    max-width: 418px;
+  }
   //clients//
   .clients {
-    padding-bottom: 90px;
+
   }
   .clients_row {
-    justify-content: space-between;
     align-items: center;
+
   }
   .clients_icon {
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
+
+    img {
+      max-width: 135px;
+    }
+  }
+  .clients_text {
+    max-width: 360px;
   }
 
+
+}
+
+@media (max-width: 1050px) {
+
+  .navigation-list li {
+    margin-right: 35px;
+  }
+  //header//
+  .header_title {
+    margin-bottom: 15px;
+
+  }
+  .header_btm {
+    margin-bottom: 15px;
+    margin-top: 26px;
+    font-size: 17px;
+  }
+  .section_title {
+    font-size: 31px;
+  }
+  .section_subtitle {
+
+  }
+
+  //clients//
+  .clients_text {
+    max-width: 300px;
+  }
+  .clients_row img {
+    max-width: 120px;
+  }
+
+
+  //benefit//
+  .benefits_card {
+    grid-gap: 20px;
+    margin: 0;
+  }
+  .card_item {
+    height: 330px;
+  }
+  .img_block {
+    padding: 12px;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .card_title {
+    margin-top: 26px;
+    font-size: 19px;
+  }
+
+  //awards//
+  .awards_row {
+    flex-direction: column-reverse;
+
+  }
+  .awards_text {
+    text-align: end;
+    max-width: inherit;
+    margin-bottom: 35px;
+    padding-left: 0;
+
+  }
+  //reviews//
+  .reviews_catalog {
+    align-items: center;
+  }
+  .catalog_active_row {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 314px;
+  }
+  .active_text {
+    margin-top: 20px;
+    margin-left: 0;
+    border-radius: 0 30% 0 30%;
+
+    h3 {
+      margin-left: 0;
+    }
+  }
+  .pink_ellipse_active {
+    position: absolute;
+    bottom: 161px;
+    right: -41px;
+  }
 
 }
