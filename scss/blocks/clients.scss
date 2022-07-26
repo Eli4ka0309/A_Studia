@@ -1,5 +1,5 @@
 .clients {
-padding-bottom: 130px;
+padding-bottom: 50px;
 }
 
 .clients_row {
@@ -7,15 +7,11 @@ padding-bottom: 130px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  flex-wrap: wrap;
 
   img {
     margin-left: 30px;
     align-items: center;
 
-  }
-  img:first-child {
-    margin-left: 0;
   }
 
 }

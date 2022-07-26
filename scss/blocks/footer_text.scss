@@ -4,16 +4,38 @@
 
   p {
     line-height: 1.6;
-    padding-top: 28px;
+    padding-top: 21px;
     color: #565656;
   }
 }
 
 .footer_social {
-  padding-top: 40px;
-
+  margin-top: 21px;
+  display: flex;
   img {
     margin-right: 10px;
 
   }
+
+}
+
+.social-icon_facebook{
+  background:  url('/img/footer/facebook.svg') no-repeat;
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin-right: 23px;
+}
+.social-icon_twitter{
+  background:  url('/img/footer/twitter.svg') no-repeat;
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin-right: 23px;
+}
+.social-icon_inst{
+  background:  url('/img/footer/linkedin.svg') no-repeat;
+  width: 36px;
+  height: 36px;
+  display: block;
 }

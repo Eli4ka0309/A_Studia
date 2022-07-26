@@ -21,6 +21,11 @@
 
   a {
     color: black;
-    line-height: 2.4;
+    margin-bottom: 20px;
+    font-size: 15px;
   }
+  a:last-child{
+    margin: 0;
+  }
+
 }
