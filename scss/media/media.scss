@@ -21,7 +21,10 @@
   .clients_text {
     max-width: 360px;
   }
-
+  //benefits//
+  .bg_card {
+    max-width: 894px;
+  }
 
 }
 
@@ -41,10 +44,10 @@
     font-size: 17px;
   }
   .section_title {
-    font-size: 31px;
+    font-size: 30px;
   }
   .section_subtitle {
-
+    font-size: 17px;
   }
 
   //clients//
@@ -62,8 +65,13 @@
     margin: 0;
   }
   .card_item {
-    height: 330px;
+
   }
+
+  .bg_card {
+    max-width: 788px;
+  }
+
   .img_block {
     padding: 12px;
 
@@ -75,6 +83,10 @@
   .card_title {
     margin-top: 26px;
     font-size: 19px;
+    padding: 0 10px;
+  }
+  .card_subtitle {
+    padding: 0 20px;
   }
 
   //awards//
@@ -113,5 +125,67 @@
     bottom: 161px;
     right: -41px;
   }
+  //subscribe//
+  .subscribe_row {
+    justify-content: space-between;
+
+  }
+  .subscribe_text {
+    padding-left: 40px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  body.look{
+    overflow: hidden;
+  }
+
+  //burger//
+  .nav_burger {
+    display: block;
+  }
+  .nav_burger.active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: 0.2s;
+  }
+
+  .nav_burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+    transition: 0.2s;
+  }
+  .burger span.active {
+    background: white;
+  }
+
+  //nav//
+  .navigation-list ul {
+    position: fixed;
+    top: -100%;
+    right: 0;
+    z-index: 1;
+    flex-direction: column;
+    background: white;
+    padding: 10px 30px;
+    align-items: flex-end;
+  }
+
+  .navigation-list ul.active {
+    top: 37px;
+    transition: 0.5s;
+
+  }
+
+  .navigation-list li {
+    margin: 0;
+    padding-bottom: 22px;
+
+  }
+  .navigation-list li:last-child {
+    padding-bottom: 0;
+  }
+
 
 }

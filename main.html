@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
           rel="stylesheet">
-    <script  src="js/mediaelement-and-player.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
@@ -16,8 +15,9 @@
 <nav class="nav">
     <div class="container">
         <div class="nav_row">
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo" width="100">
+            <img src="img/logo.svg" alt="Logo" width="100">
+            <div class="burger">
+                <span class="nav_burger"></span>
             </div>
             <div class="navigation-list">
                 <ul>
@@ -78,12 +78,13 @@
         <div class="benefits_row">
             <div class="benefits_text">
                 <div class="section_title">How can we help your Business ?</div>
-                <p class="section_subtitle">We build readymade websites, mobile applications, and elaborate online business services.</p>
+                <p class="section_subtitle">We build readymade websites, mobile applications, and elaborate online
+                    business services.</p>
                 <img src="img/rectangle.svg" alt="rectangle" class="rectangle">
                 <img src="img/dot_ornament_blue.svg" alt="dot_ornament_blue" class="dot_ornament">
             </div>
+            <img src="img/bg_card.svg" class="bg_card" alt="section">
             <div class="benefits_card">
-                <img src="img/bg_card.svg" class="bg_card" alt="section">
                 <div class="card_item grid_1">
                     <div class="img_block" style="--bg:#F1F7FF">
                         <img src="img/icons_help/1.svg" alt="Business Idea Planning">
@@ -112,8 +113,6 @@
                     <h3 class="card_title">Market Analysis Project</h3>
                     <p class="card_subtitle">Protocols apart from aengage models, pricing billing</p>
                 </div>
-                <img src="img/pink_ellipse.svg" alt="pink_ellipse" class="pink_ellipse_card">
-
             </div>
         </div>
     </div>
@@ -124,7 +123,7 @@
 
             <div class="awards_video">
                 <video poster="video/poster_for_video.svg" width="550" height="372"
-                       class="awards_video_content" >
+                       class="awards_video_content">
                     <source src="video/pexels-peter-fowler-6394054.mp4" type="video/mp4" sizes="auto">
                 </video>
                 <div class="video_play">

@@ -4,22 +4,35 @@
   grid-template-rows: 1fr;
   grid-gap: 35px;
   margin-right: 51px;
+  position: relative;
 
+
+}
+.benefits_card:after{
+  content: '';
+  background: url("/img/pink_ellipse.svg") no-repeat;
+  position: absolute;
+  bottom: 79px;
+  right: -52px;
+  z-index: -1;
+  width: 120px;
+  height: 120px;
 }
 
 
 .bg_card {
   position: absolute;
   top: 132px;
-  right: -119px;
+  right: 0;
   z-index: -1;
   width: 100%;
+  max-width: 1045px;
 }
 
 .card_item {
   width: 100%;
   max-width: 308px;
-  height: 400px;
+  height: 373px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +58,8 @@
 .card_subtitle {
   text-align: center;
   margin-top: 20px;
-
+  padding: 0 14px;
+  line-height: 1.8;
 
 }
 

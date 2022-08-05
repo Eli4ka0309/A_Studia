@@ -6,7 +6,11 @@
   align-items: center;
   border-radius: 75px;
   position: relative;
- background: $accentSub;
+  background-color: $accentSub;
+  background-image: url(/img/rectangle_blue.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 
 }
 

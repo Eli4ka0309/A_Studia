@@ -1,8 +1,11 @@
 .navigation-list {
+
+
   ul {
     display: flex;
     font-weight: 900;
     color: black;
+
   }
 
   li {
@@ -12,10 +15,12 @@
       margin-right: 0;
     }
   }
-  a{
+
+  a {
     color: inherit;
-    &:hover{
-      color:#2436e0;
+
+    &:hover {
+      color: #2436e0;
     }
   }
 
