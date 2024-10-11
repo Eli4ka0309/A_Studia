@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf626ce-f1e6-4366-8672-8a825667b193" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/base/_base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/base/_reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/base/_vars-dist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/base/_vars.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/header_img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/header_img.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/media/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/header_btm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/header_btm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +43,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BdFqEvQTcEDSpGr3JKH5RcMNJE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.last.introduce.type" value="LET" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/elina/Desktop/project/A_Studia&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,11 +77,33 @@
       <workItem from="1659707250265" duration="4112000" />
       <workItem from="1659714154949" duration="316000" />
       <workItem from="1659717418496" duration="354000" />
-      <workItem from="1659718021831" duration="4844000" />
+      <workItem from="1659718021831" duration="5264000" />
+      <workItem from="1659777084878" duration="27000" />
+      <workItem from="1659777407757" duration="5901000" />
+      <workItem from="1661020793055" duration="8000" />
+      <workItem from="1661021014686" duration="81000" />
+      <workItem from="1661022796038" duration="631000" />
+      <workItem from="1661603080724" duration="1238000" />
+      <workItem from="1675018581006" duration="369000" />
+      <workItem from="1675101501334" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
